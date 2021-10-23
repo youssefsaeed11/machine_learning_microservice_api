@@ -1,0 +1,21 @@
+# 1- Kubernetes terminal output when running run_kebernetes and make_prediction
+
+pod/machine_learning_microservice_api created
+Waiting for pod to be available ...
+NAME                           READY   STATUS    RESTARTS   AGE
+machine_learning_microservice_api   1/1     Running   0          21s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+
+
+# 2- make_prediction script output
+
+$ ./make_prediction.sh 
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
